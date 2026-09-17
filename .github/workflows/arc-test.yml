@@ -1,0 +1,14 @@
+name: ARC Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: arc-runner-set
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Test ARC runner
+        run: echo "ARC runner is working"
