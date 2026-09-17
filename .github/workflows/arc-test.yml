@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: arc-runner-system
+    runs-on: arc-actions-runner-controller
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
