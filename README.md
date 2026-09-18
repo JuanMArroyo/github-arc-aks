@@ -1,5 +1,7 @@
 # Azure Kubernetes GitHub Actions Runners
 
+> Solution package: [business and technical documentation](docs/solution-package.md)
+
 Portfolio project showing how I provisioned an Azure Kubernetes Service (AKS) environment, prepared it for Actions Runner Controller (ARC), and added Prometheus/Grafana observability.
 
 ## Why I built it
