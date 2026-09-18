@@ -73,7 +73,3 @@ Recommended evidence to capture:
 - Kubernetes adds operational power, but also requires deliberate monitoring and alerting.
 - A dashboard explains current state; an alert creates an operational response path.
 - Portfolio documentation should show both implementation decisions and evidence that the system works.
-
-## Security note
-
-Terraform state files can contain sensitive infrastructure details. Keep `terraform.tfstate` and `terraform.tfstate.backup` out of public repositories and add them to `.gitignore` before publishing this project.
