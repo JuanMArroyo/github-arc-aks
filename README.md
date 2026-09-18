@@ -58,7 +58,7 @@ Add screenshots captured from the running environment to `docs/screenshots/` and
 
 ![Infrastructure Health dashboard](docs/screenshots/infrastructure-health.png)
 
-![Prometheus Target Down alert](docs/screenshots/prometheus-target-down-alert.png)
+![Prometheus Target Down alert](docs/screenshots/prometheus-down-alert.png)
 
 Recommended evidence to capture:
 
