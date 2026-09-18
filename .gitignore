@@ -1,0 +1,35 @@
+# Terraform working directory and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+**/tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files may contain credentials or environment-specific values
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Kubernetes / cloud credentials
+*.kubeconfig
+kubeconfig*
+*.pem
+*.key
+*.crt
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local logs and generated output
+*.log
+dist/
+build/
