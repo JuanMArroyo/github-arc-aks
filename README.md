@@ -53,7 +53,7 @@ The `k8s/` directory is the integration point for ARC, runner scale sets, namesp
 The **Prometheus Target Down** rule evaluates the `up` metric and triggers when a target is below `1`. It uses a five-minute pending period and a one-minute evaluation interval to reduce noise from short-lived scrape failures.
 
 ## Validation evidence
-![ARC Test Successful](docs/screenshots/arc-test.png)
+![ARC Test Successful](docs/screenshots/Arc-Test.png)
 
 ![Infrastructure Health dashboard](docs/screenshots/infrastructure-health.png)
 
